@@ -1,2 +1,12 @@
 baseurl: ""
 url: https://www.incadds.ie
+
+title: INCADDS
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

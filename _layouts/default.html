@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  {% include head.html %}
+  <body>
+    <div class="incadds">
+      {% include header.html %}
+      <div class="sidebar">
+        {% include sidemenu.html %}
+        <ul id="indexsmall">
+          <li class="first"><a href="tips-for-teachers.html"><img src="images/ttips.gif" alt="Tips for Teachers" title="Tips for Teachers" /></a></li>
+          <li><a href="tips-for-parents.html"><img src="images/ptips.gif" alt="Tips for Parents" title="Tips for Parents" /></a></li>
+        </ul>
+      </div>
+      {{ content }}
+      {% include footer.html %}
+    </div>
+    {% include address.html %}
+  </body>
+</html>
